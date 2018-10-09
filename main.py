@@ -12,9 +12,9 @@ cs506a1 = soup.body.find_all('table',recursive=False)[3].find_all('tr',recursive
 openseat = int(cs506a1.string)
 print(openseat)
 
-my_sender = 'chuci1994@163.com'  # 发件人邮箱账号
-my_pass = 'cc19940818'  # 发件人邮箱密码
-my_user = 'chuci1994@163.com'  # 收件人邮箱账号，我这边发送给自己
+my_sender = ''  # 发件人邮箱账号
+my_pass = ''  # 发件人邮箱密码
+my_user = ''  # 收件人邮箱账号，我这边发送给自己
 def mail():
     ret = True
     try:
